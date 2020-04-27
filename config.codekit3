@@ -19,20 +19,9 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/bride.jpg": {
-		"ft": 16384,
-		"iS": 833711,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/bride.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/bubbles.jpg": {
 		"ft": 16384,
-		"iS": 849037,
+		"iS": 36943,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/bubbles.jpg",
@@ -41,9 +30,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/circlebride.jpg": {
+		"ft": 16384,
+		"iS": 26871,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/circlebride.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/eyeshadow.jpg": {
 		"ft": 16384,
-		"iS": 243595,
+		"iS": 19213,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/eyeshadow.jpg",
@@ -52,12 +52,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/flower_hero.jpg": {
+	"/deploy/img/hero.jpg": {
 		"ft": 16384,
-		"iS": 696729,
+		"iS": 37476,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/flower_hero.jpg",
+		"oAP": "/deploy/img/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -75,7 +75,7 @@
 		},
 	"/deploy/img/lemonface.jpg": {
 		"ft": 16384,
-		"iS": 454942,
+		"iS": 51804,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/lemonface.jpg",
@@ -84,12 +84,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/pinkfruit.jpg": {
+	"/deploy/img/pinkmixes.jpg": {
 		"ft": 16384,
-		"iS": 511154,
+		"iS": 38805,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/pinkfruit.jpg",
+		"oAP": "/deploy/img/pinkmixes.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -97,7 +97,7 @@
 		},
 	"/deploy/img/tea.jpg": {
 		"ft": 16384,
-		"iS": 95306,
+		"iS": 24174,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/tea.jpg",
@@ -294,6 +294,71 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-5.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
