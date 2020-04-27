@@ -14,9 +14,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/deploy/css/_section-2-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/deploy/css/_section-3.css": {
@@ -24,9 +24,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/deploy/css/_section-3-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/deploy/css/_section-5.css": {
@@ -34,9 +34,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/deploy/css/_section-5-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/deploy/css/styles.css": {
@@ -159,9 +159,9 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/footer.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/header.html": {
 		"cB": 0,
@@ -175,9 +175,9 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/header.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/index.kit": {
 		"cB": 1,
@@ -194,7 +194,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
-		"oF": 2,
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -410,41 +410,41 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/section-1.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-2.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/section-2.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-3.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/section-3.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-4.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/section-4.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-5.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/section-5.html",
-		"oF": 0
+		"oF": 1
 		}
 	},
 "hooks": [
