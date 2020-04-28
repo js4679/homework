@@ -1,9 +1,9 @@
 /* =============
     Section 3
 ============= */
-#section-3 {
+#section-3 > div {
   display: grid;
-  grid-template-columns: 10px auto 10px;
+  grid-template-columns: 30px auto 30px;
   grid-template-areas: ". section-3 ."; }
-  #section-3 > div {
+  #section-3 > div > aside {
     grid-area: section-3; }

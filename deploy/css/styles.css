@@ -383,3 +383,44 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer > div {
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+  grid-template-areas: ". footer ."; }
+
+/* =============
+    Section 1
+============= */
+/* =============
+    Section 2
+============= */
+#section-2 > div {
+  display: grid;
+  grid-template-columns: 30px auto 30px;
+  grid-template-areas: ". section-2 ."; }
+  #section-2 > div > aside {
+    grid-area: section-2; }
+
+/* =============
+    Section 3
+============= */
+#section-3 > div {
+  display: grid;
+  grid-template-columns: 30px auto 30px;
+  grid-template-areas: ". section-3 ."; }
+  #section-3 > div > aside {
+    grid-area: section-3; }
+
+/* =============
+    Section 4
+============= */
+/* =============
+    Section 5
+============= */
+#section-5 > div {
+  display: grid;
+  grid-template-columns: 30px auto 30px;
+  grid-template-areas: ". section-5 ."; }
+  #section-5 > div > aside {
+    grid-area: section-5;
+    display: grid; }
