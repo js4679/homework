@@ -8,3 +8,5 @@
   grid-template-areas: ". section-2 ."; }
   #section-2 > div > aside {
     grid-area: section-2; }
+#section-2 section img {
+  width: 100%; }
