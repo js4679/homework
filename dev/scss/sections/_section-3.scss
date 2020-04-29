@@ -2,13 +2,23 @@
     Section 3
 ============= */
 #section-3{
+    >section{
+        img{
+          width: 100%
+        }
+    }
     >div{
         display: grid;
+        text-align: center;
         grid-template-columns: 30px auto 30px;
         grid-template-areas: ". section-3 .";
        
         >aside {
-           grid-area: section-3;
+          
+            grid-area: section-3;
+            hr {
+                color: $lightpink
+            }
         } 
     }
 }   

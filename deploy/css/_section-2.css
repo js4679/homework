@@ -3,6 +3,7 @@
 ============= */
 #section-2 > div {
   display: grid;
+  text-align: center;
   grid-template-columns: 30px auto 30px;
   grid-template-areas: ". section-2 ."; }
   #section-2 > div > aside {

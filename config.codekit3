@@ -9,6 +9,76 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/deploy/css/_footer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/deploy/css/_footer-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/deploy/css/_header.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/deploy/css/_header-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/deploy/css/_section-1.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/deploy/css/_section-1-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/deploy/css/_section-2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/deploy/css/_section-2-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/deploy/css/_section-3.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/deploy/css/_section-3-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/deploy/css/_section-4.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/deploy/css/_section-4-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/deploy/css/_section-5.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/deploy/css/_section-5-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -35,17 +105,6 @@
 		"oAP": "/deploy/header.html",
 		"oF": 0
 		},
-	"/deploy/img/bubbles.jpg": {
-		"ft": 16384,
-		"iS": 36943,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/bubbles.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/circlebride.jpg": {
 		"ft": 16384,
 		"iS": 26871,
@@ -68,17 +127,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/hero.jpg": {
-		"ft": 16384,
-		"iS": 37476,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/hero.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/lemon-regular.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -95,17 +143,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/lemonface.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/pinkmixes.jpg": {
-		"ft": 16384,
-		"iS": 38805,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/pinkmixes.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
@@ -302,8 +339,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/helpers/_mixins.css",
-		"oF": 1,
+		"oAP": "/deploy/css/_mixins.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},
@@ -315,8 +352,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/helpers/_variables.css",
-		"oF": 1,
+		"oAP": "/deploy/css/_variables.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},
@@ -345,6 +382,46 @@
 		"oF": 3,
 		"oS": 0,
 		"uL": 1
+		},
+	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-1.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-1.scssc",
+		"oF": 0
+		},
+	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-2.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-2.scssc",
+		"oF": 0
+		},
+	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-3.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-3.scssc",
+		"oF": 0
+		},
+	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-4.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-4.scssc",
+		"oF": 0
+		},
+	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-5.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-5.scssc",
+		"oF": 0
 		},
 	"/dev/scss/sections/_section-1.scss": {
 		"aP": 0,
