@@ -393,7 +393,9 @@ textarea {
 ============= */
 #section-1 > div img {
   width: 100%; }
-
+  @media (min-width: 1200px) {
+    #section-1 > div img {
+      grid-template-columns: repeat(4, 1fr); } }
 /* =============
     Section 2
 ============= */
@@ -418,6 +420,11 @@ textarea {
   grid-template-areas: ". section-3 ."; }
   #section-3 > div > aside {
     grid-area: section-3; }
+    @media (min-width: 768px) {
+      #section-3 > div > aside {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        grid-template-areas: aside; } }
     #section-3 > div > aside hr {
       color: #EECEC4; }
 

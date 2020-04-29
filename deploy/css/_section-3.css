@@ -1,34 +1,28 @@
 /*
-Error: Undefined variable: "$lightpink".
-        on line 20 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss
+Error: Undefined mixin 'md'.
+        on line 17 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss, in `md'
+        from line 17 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss
 
+12:         text-align: center;
+13:         grid-template-columns: 30px auto 30px;
+14:         grid-template-areas: ". section-3 .";
 15:        
 16:         >aside {
-17:           
-18:             grid-area: section-3;
-19:             hr {
-20:                 color: $lightpink
+17:            @include md{
+18:             display: grid;
+19:             grid-template-columns: 20% auto 20%;
+20:             grid-template-areas: aside;
 21:             }
-22:         } 
-23:     }
-24: }
+22:             grid-area: section-3;
 
 Backtrace:
-/Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss:20
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss:17:in `md'
+/Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss:17
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `block in with_mixin'
 /var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:135:in `with_frame'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:444:in `map'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `with_mixin'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
 /var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
 /var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/5F2E4CE3-A4BE-400C-BAAA-6179022FDDB1/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
@@ -91,4 +85,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$lightpink\".\A         on line 20 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss\A \A 15:        \A 16:         >aside {\A 17:           \A 18:             grid-area: section-3;\A 19:             hr {\A 20:                 color: $lightpink\A 21:             }\A 22:         } \A 23:     }\A 24: }"; }
+  content: "Error: Undefined mixin 'md'.\A         on line 17 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss, in `md'\A         from line 17 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss\A \A 12:         text-align: center;\A 13:         grid-template-columns: 30px auto 30px;\A 14:         grid-template-areas: \". section-3 .\";\A 15:        \A 16:         >aside {\A 17:            @include md{\A 18:             display: grid;\A 19:             grid-template-columns: 20% auto 20%;\A 20:             grid-template-areas: aside;\A 21:             }\A 22:             grid-area: section-3;"; }

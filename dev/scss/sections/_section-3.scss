@@ -14,7 +14,11 @@
         grid-template-areas: ". section-3 .";
        
         >aside {
-          
+           @include md{
+            display: grid;
+            grid-template-columns: 20% auto 20%;
+            grid-template-areas: aside;
+            }
             grid-area: section-3;
             hr {
                 color: $lightpink
