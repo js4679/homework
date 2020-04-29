@@ -395,7 +395,7 @@ textarea {
   width: 100%; }
   @media (min-width: 1200px) {
     #section-1 > div img {
-      grid-template-columns: repeat(4, 1fr); } }
+      grid-template-columns: repeat 4, 1fr; } }
 /* =============
     Section 2
 ============= */
