@@ -2,14 +2,14 @@
     Section 5
 ============= */
 #section-5{
-    >div{
+    div{
         display: grid;
         grid-template-columns: 30px auto 30px;
         grid-template-areas: ". section-5 .";
 
         >aside {
         grid-area: section-5;
-        display: grid;
+        
         }
     }
 }
