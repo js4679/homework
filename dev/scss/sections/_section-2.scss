@@ -13,6 +13,9 @@
         }  
     }
     section{
+        @include md{
+            grid-template-columns: 20% auto 20%;
+        }
         img{
             width: 100%;
         }

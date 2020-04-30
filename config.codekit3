@@ -444,6 +444,22 @@
 		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-1.scssc",
 		"oF": 0
 		},
+	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-2.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-2.scssc",
+		"oF": 0
+		},
+	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-3.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-3.scssc",
+		"oF": 0
+		},
 	"/dev/scss/sections/_section-1.scss": {
 		"aP": 0,
 		"bl": 0,

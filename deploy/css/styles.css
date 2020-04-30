@@ -446,7 +446,7 @@ textarea {
   @media (min-width: 1200px) {
     /* line 8, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-1.scss */
     #section-1 > div img {
-      color: #006; } }
+      grid-template-columns: auto 1200px auto; } }
 /* =============
     Section 2
 ============= */
@@ -460,7 +460,12 @@ textarea {
   #section-2 > div > aside {
     grid-area: section-2; }
 
-/* line 16, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-2.scss */
+@media (min-width: 768px) {
+  /* line 15, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-2.scss */
+  #section-2 section {
+    grid-template-columns: 20% auto 20%; } }
+
+/* line 19, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-2.scss */
 #section-2 section img {
   width: 100%; }
 
@@ -489,10 +494,20 @@ textarea {
     /* line 23, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss */
     #section-3 > div > aside hr {
       color: #EECEC4; }
+    /* line 26, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-3.scss */
+    #section-3 > div > aside h1 {
+      color: #EEC167; }
 
 /* =============
     Section 4
 ============= */
+/* line 7, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-4.scss */
+#section-4 ul li img {
+  width: 50%; }
+  @media (min-width: 1200px) {
+    /* line 7, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-4.scss */
+    #section-4 ul li img {
+      grid-template-columns: auto 1200px auto; } }
 /* =============
     Section 5
 ============= */
@@ -503,4 +518,9 @@ textarea {
   grid-template-areas: ". section-5 ."; }
   /* line 10, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-5.scss */
   #section-5 div > aside {
-    grid-area: section-5; }
+    grid-area: section-5;
+    text-align: center; }
+
+/* line 16, Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-5.scss */
+#section-5 section img {
+  align: center; }

@@ -1,3 +1,15 @@
 /* =============
     Section 4
 ============= */
+#section-4{
+    ul{
+        li{
+            img{
+                @include xl{
+                    grid-template-columns: auto 1200px auto;
+                }
+                width: 50%;
+            }
+        }
+    }
+}

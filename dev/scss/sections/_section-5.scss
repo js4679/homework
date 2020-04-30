@@ -9,7 +9,12 @@
 
         >aside {
         grid-area: section-5;
-        
+        text-align: center;
+        }
+    }
+    section{
+        img{
+            align: center;
         }
     }
 }

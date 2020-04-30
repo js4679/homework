@@ -7,8 +7,8 @@
     >div{
         img{
             width: 100%;
-            @include xl {
-                color: #006;
+                @include xl{
+                grid-template-columns: (auto 1200px auto);
             }
         }
     }

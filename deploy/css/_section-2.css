@@ -1,12 +1,77 @@
-/* =============
-    Section 2
-============= */
-#section-2 > div {
-  display: grid;
-  text-align: center;
-  grid-template-columns: 30px auto 30px;
-  grid-template-areas: ". section-2 ."; }
-  #section-2 > div > aside {
-    grid-area: section-2; }
-#section-2 section img {
-  width: 100%; }
+/*
+Error: Undefined mixin 'md'.
+        on line 16 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-2.scss, in `md'
+        from line 16 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-2.scss
+
+11:         >aside{
+12:         grid-area: section-2;
+13:         }  
+14:     }
+15:     section{
+16:         @include md{
+17:             grid-template-columns: 20% auto 20%;
+18:         }
+19:         img{
+20:             width: 100%;
+21:         }
+
+Backtrace:
+/Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-2.scss:16:in `md'
+/Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-2.scss:16
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `block in with_mixin'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:135:in `with_frame'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `with_mixin'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:135:in `with_frame'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:444:in `map'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:135:in `with_frame'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:444:in `map'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:135:in `with_frame'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:290:in `render'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:400:in `run'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/01C7CB04-9DB5-49EA-8D88-8E82D7BC3EAE/d/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'md'.\A         on line 16 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-2.scss, in `md'\A         from line 16 of /Users/jessicasummers/Documents/GitHub/homework/dev/scss/sections/_section-2.scss\A \A 11:         >aside{\A 12:         grid-area: section-2;\A 13:         }  \A 14:     }\A 15:     section{\A 16:         @include md{\A 17:             grid-template-columns: 20% auto 20%;\A 18:         }\A 19:         img{\A 20:             width: 100%;\A 21:         }"; }

@@ -6,4 +6,7 @@
   grid-template-columns: 30px auto 30px;
   grid-template-areas: ". section-5 ."; }
   #section-5 div > aside {
-    grid-area: section-5; }
+    grid-area: section-5;
+    text-align: center; }
+#section-5 section img {
+  align: center; }
