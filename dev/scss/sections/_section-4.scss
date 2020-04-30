@@ -5,6 +5,10 @@
     ul{
         li{
             img{
+                @include md{
+                    grid-template-columns: 100%;
+                }
+
                 @include xl{
                     grid-template-columns: auto 1200px auto;
                 }

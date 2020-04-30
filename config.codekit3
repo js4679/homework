@@ -166,6 +166,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/gallery1.jpg": {
+		"ft": 16384,
+		"iS": 833702,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/hero.jpg": {
 		"ft": 16384,
 		"iS": 37476,
@@ -186,17 +197,6 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
-		},
-	"/deploy/img/lemonface.jpg": {
-		"ft": 16384,
-		"iS": 51804,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/lemonface.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/deploy/img/pinkmixes.jpg": {
 		"ft": 16384,
