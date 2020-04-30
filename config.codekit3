@@ -4,11 +4,19 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "FD1292E5-8896-4413-981A-FEFACA4519D2"
+		"uuidString": "F1EA2615-5BC2-46A2-8D70-38ABB65D10E6"
 		}
 	],
 "creatorBuild": "32001",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/deploy/css/_footer.css": {
 		"aP": 1,
 		"bl": 0,
@@ -127,11 +135,11 @@
 		},
 	"/deploy/img/bubbles.jpg": {
 		"ft": 16384,
-		"iS": 647184,
+		"iS": 36943,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/bubbles.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -160,11 +168,11 @@
 		},
 	"/deploy/img/hero.jpg": {
 		"ft": 16384,
-		"iS": 600161,
+		"iS": 37476,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/hero.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -192,11 +200,11 @@
 		},
 	"/deploy/img/pinkmixes.jpg": {
 		"ft": 16384,
-		"iS": 272294,
+		"iS": 38805,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/pinkmixes.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -213,7 +221,7 @@
 		"q": 100
 		},
 	"/deploy/index.html": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -293,7 +301,7 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/index.html",
-		"oF": 3
+		"oF": 2
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -302,7 +310,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
-		"oF": 3,
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
@@ -313,9 +321,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/scss/base/_base.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -326,9 +334,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/scss/base/_normalize.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -339,9 +347,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/scss/base/_typography.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -352,9 +360,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/scss/components/_buttons.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -365,9 +373,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/scss/components/_forms.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -378,9 +386,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/scss/components/_navigation.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -391,9 +399,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_mixins.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/helpers/_mixins.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -404,9 +412,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_variables.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/helpers/_variables.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -417,9 +425,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_footer.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/layout/_footer.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -430,35 +438,11 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_header.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-1.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-1.scssc",
-		"oF": 0
-		},
-	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-2.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-2.scssc",
-		"oF": 0
-		},
-	"/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-3.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/.sass-cache/a7084156e5656b969b161303364ff97bce52caaa/_section-3.scssc",
-		"oF": 0
 		},
 	"/dev/scss/sections/_section-1.scss": {
 		"aP": 0,
@@ -467,11 +451,11 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_section-1.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-1.css",
+		"oF": 0,
 		"oS": 0,
-		"uL": 0
+		"uL": 1
 		},
 	"/dev/scss/sections/_section-2.scss": {
 		"aP": 0,
@@ -480,11 +464,11 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_section-2.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-2.css",
+		"oF": 0,
 		"oS": 0,
-		"uL": 0
+		"uL": 1
 		},
 	"/dev/scss/sections/_section-3.scss": {
 		"aP": 0,
@@ -493,11 +477,11 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_section-3.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-3.css",
+		"oF": 0,
 		"oS": 0,
-		"uL": 0
+		"uL": 1
 		},
 	"/dev/scss/sections/_section-4.scss": {
 		"aP": 0,
@@ -506,11 +490,11 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_section-4.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-4.css",
+		"oF": 0,
 		"oS": 0,
-		"uL": 0
+		"uL": 1
 		},
 	"/dev/scss/sections/_section-5.scss": {
 		"aP": 0,
@@ -529,46 +513,46 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 2,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/deploy/css/styles.css",
-		"oF": 3,
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
 	"/dev/section-1.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/section-1.html",
-		"oF": 3
+		"oA": 1,
+		"oAP": "/dev/section-1.html",
+		"oF": 0
 		},
 	"/dev/section-2.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/section-2.html",
-		"oF": 3
+		"oA": 1,
+		"oAP": "/dev/section-2.html",
+		"oF": 0
 		},
 	"/dev/section-3.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/section-3.html",
-		"oF": 3
+		"oA": 1,
+		"oAP": "/dev/section-3.html",
+		"oF": 0
 		},
 	"/dev/section-4.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/section-4.html",
-		"oF": 3
+		"oA": 1,
+		"oAP": "/dev/section-4.html",
+		"oF": 0
 		},
 	"/dev/section-5.kit": {
 		"cB": 1,
@@ -584,10 +568,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 607269039.62657595,
-	"displayValue": "Week 2 In-Class",
+	"creationDate": 606628492.14636803,
+	"displayValue": "web2-html-template",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_orange",
+	"iconImageName": "brackets-glace",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -2678,7 +2662,7 @@
 	"npmSaveExactVersion": 0,
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "",
+	"previewPathAddition": "/deploy/index.html",
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
