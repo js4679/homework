@@ -2,31 +2,43 @@
     Section 3
 ============= */
 #section-3{
+
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-3 .";
+
+    }
+
     >section{
-        img{
-          width: 100%
+        background-image: url('../img/bubbles.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 513px;
+
+
+        @include lg{
+            height: 684px;
+        }
+
+        @include xl{
+            grid-area: section-3;
         }
     }
+
     >div{
         display: grid;
         text-align: center;
         grid-template-columns: 30px auto 30px;
         grid-template-areas: ". section-3 .";
-       
-        >aside {
-           @include md{
-            display: grid;
-            grid-template-columns: 20% auto 20%;
-            grid-template-areas: aside;
-            }
+        
+        >aside{
             grid-area: section-3;
-            hr {
-                color: $lightpink;
-            }
+
             h1{
                 color: $yellow;
             }
+        }
+        
         } 
     }
-}   
-

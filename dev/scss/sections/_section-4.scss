@@ -3,17 +3,9 @@
 ============= */
 #section-4{
     ul{
-        li{
-            img{
-                @include md{
-                    grid-template-columns: 100%;
-                }
-
-                @include xl{
-                    grid-template-columns: auto 1200px auto;
-                }
-                width: 50%;
-            }
-        }
+        grid-area: section-4;
+        display: grid;
+        gap:20px;
+        width:100%;
     }
 }

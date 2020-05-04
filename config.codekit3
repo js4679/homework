@@ -155,17 +155,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/eyeshadow.jpg": {
-		"ft": 16384,
-		"iS": 19213,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/eyeshadow.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/gallery1.jpg": {
 		"ft": 16384,
 		"iS": 833702,
@@ -204,17 +193,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/pinkmixes.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/tea.jpg": {
-		"ft": 16384,
-		"iS": 24174,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/tea.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,

@@ -391,18 +391,26 @@ textarea {
 /* =============
     Section 1
 ============= */
-#section-1 {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-1 ."; }
-  @media (min-width: 1200px) {
-    #section-1 {
-      grid-template-columns: auto 1200px auto; } }
-  #section-1 > div {
-    grid-area: section-1; }
-    #section-1 > div img {
-      width: 100%; }
+@media (min-width: 1200px) {
+  #section-1 {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section-1 ."; } }
 
+#section-1 > div {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 370px; }
+  @media (min-width: 768px) {
+    #section-1 > div {
+      height: 513px; } }
+  @media (min-width: 992px) {
+    #section-1 > div {
+      height: 684px; } }
+  @media (min-width: 1200px) {
+    #section-1 > div {
+      grid-area: section-1; } }
 /* =============
     Section 2
 ============= */
@@ -414,19 +422,29 @@ textarea {
   #section-2 > div > aside {
     grid-area: section-2; }
 
-@media (min-width: 768px) {
-  #section-2 section {
-    grid-template-columns: 20% auto 20%; } }
-
 #section-2 section img {
   width: 100%; }
 
 /* =============
     Section 3
 ============= */
-#section-3 > section img {
-  width: 100%; }
+@media (min-width: 1200px) {
+  #section-3 {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section-3 ."; } }
 
+#section-3 > section {
+  background-image: url("../img/bubbles.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 513px; }
+  @media (min-width: 992px) {
+    #section-3 > section {
+      height: 684px; } }
+  @media (min-width: 1200px) {
+    #section-3 > section {
+      grid-area: section-3; } }
 #section-3 > div {
   display: grid;
   text-align: center;
@@ -434,27 +452,18 @@ textarea {
   grid-template-areas: ". section-3 ."; }
   #section-3 > div > aside {
     grid-area: section-3; }
-    @media (min-width: 768px) {
-      #section-3 > div > aside {
-        display: grid;
-        grid-template-columns: 20% auto 20%;
-        grid-template-areas: aside; } }
-    #section-3 > div > aside hr {
-      color: #EECEC4; }
     #section-3 > div > aside h1 {
       color: #EEC167; }
 
 /* =============
     Section 4
 ============= */
-#section-4 ul li img {
-  width: 50%; }
-  @media (min-width: 768px) {
-    #section-4 ul li img {
-      grid-template-columns: 100%; } }
-  @media (min-width: 1200px) {
-    #section-4 ul li img {
-      grid-template-columns: auto 1200px auto; } }
+#section-4 ul {
+  grid-area: section-4;
+  display: grid;
+  gap: 20px;
+  width: 100%; }
+
 /* =============
     Section 5
 ============= */
