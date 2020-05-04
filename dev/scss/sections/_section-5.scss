@@ -13,8 +13,12 @@
         }
     }
     section{
-        img{
-            align: center;
-        }
+        background-image: url('../img/circlebride.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
     }
 }

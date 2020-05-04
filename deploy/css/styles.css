@@ -420,10 +420,15 @@ textarea {
   grid-template-columns: 30px auto 30px;
   grid-template-areas: ". section-2 ."; }
   #section-2 > div > aside {
-    grid-area: section-2; }
+    grid-area: section-2;
+    padding-top: 100px;
+    padding-bottom: 70px; }
 
-#section-2 section img {
-  width: 100%; }
+#section-2 section {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #section-2 section img {
+    width: 100%; }
 
 /* =============
     Section 3
@@ -451,7 +456,9 @@ textarea {
   grid-template-columns: 30px auto 30px;
   grid-template-areas: ". section-3 ."; }
   #section-3 > div > aside {
-    grid-area: section-3; }
+    grid-area: section-3;
+    padding-top: 70px;
+    padding-bottom: 70px; }
     #section-3 > div > aside h1 {
       color: #EEC167; }
 
@@ -475,5 +482,10 @@ textarea {
     grid-area: section-5;
     text-align: center; }
 
-#section-5 section img {
-  align: center; }
+#section-5 section {
+  background-image: url("../img/circlebride.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px; }

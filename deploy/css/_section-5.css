@@ -8,5 +8,10 @@
   #section-5 div > aside {
     grid-area: section-5;
     text-align: center; }
-#section-5 section img {
-  align: center; }
+#section-5 section {
+  background-image: url("../img/circlebride.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
