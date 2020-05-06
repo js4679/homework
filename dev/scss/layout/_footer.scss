@@ -2,9 +2,6 @@
     Footer
 ============= */
     #footer{
-        >div{
-            display: grid;
-            grid-template-columns: 20px auto 20px;
-            grid-template-areas: ". footer .";
-        }
+        color: $yellow;
+
     }

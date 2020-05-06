@@ -2,10 +2,55 @@
     Section 4
 ============= */
 #section-4{
-    ul{
-        grid-area: section-4;
+    
+    @include xl{
         display: grid;
-        gap:20px;
-        width:100%;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-5 .";
+    }
+    ul{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-rows: repeat(3, 296px);
+
+        @include md{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 340px);
+            grid-template-areas: 
+            "lemonface  lemonface"
+            "lemonface  lemonface"
+            "eyeshadow  tea";
+        }
+
+        @include xl{
+            grid-area: section-4;
+        }
+
+        li{
+            background-position: center;
+            background-size: cover;
+        }
+
+        #lemonface{
+            background-image: url("../img/gallery1.jpg");
+            @include md{
+                grid-area: lemonface;
+                background-position: center top;
+            }
+        }
+
+        #eyeshadow{
+            background-image: url("../img/eyeshadow.jpg");
+            @include md{
+                grid-area: eyeshadow;
+            }
+        }
+
+        #tea{
+            background-image: url("../img/tea.jpg");
+            @include md{
+                grid-area: tea;
+            }
+        } 
     }
 }

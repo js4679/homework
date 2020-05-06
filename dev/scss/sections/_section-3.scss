@@ -7,7 +7,6 @@
         display: grid;
         grid-template-columns: auto 1200px auto;
         grid-template-areas: ". section-3 .";
-
     }
 
     >section{
@@ -15,7 +14,6 @@
         background-size: cover;
         background-position: center;
         height: 513px;
-
 
         @include lg{
             height: 684px;
@@ -29,17 +27,27 @@
     >div{
         display: grid;
         text-align: center;
-        grid-template-columns: 30px auto 30px;
+        grid-template-columns: 15px auto 15px;
         grid-template-areas: ". section-3 .";
+        padding: 43px 0px;
+        color: $yellow;
+
+        @include md{
+            grid-template-columns: auto 70% auto;
+        }
+
+        @include xl{
+            grid-template-columns: auto 650px auto;
+        }
         
         >aside{
             grid-area: section-3;
-            padding-top: 70px;
-            padding-bottom: 70px;
-            h1{
-                color: $yellow;
+            
+            hr{
+                border: none;
+                height: 3px;
+                background-color: $lightpink;
             }
-        }
-        
         } 
-    }
+    }    
+}
